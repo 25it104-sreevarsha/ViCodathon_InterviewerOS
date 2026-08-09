@@ -16,8 +16,8 @@ export const interviewerProfile = {
   name: "Ava",
   role: "AI Technical Interviewer",
   // Set this to a real, licensed image path once available, e.g.
-  // image: "/assets/interviewer-avatar.jpg"
-  image: null,
+  image: "/assets/interviewer.jpg",
+  //image: null,
   mouthAnchor: {
     xPercent: 50,
     yPercent: 68,
