@@ -34,7 +34,7 @@ app.use(errorHandler);
 const isMainModule = process.argv[1] === fileURLToPath(import.meta.url);
 if (isMainModule) {
   app.listen(env.port, () => {
-    console.log(`Interviewer OS backend listening on http://localhost:${env.port}`);
+    console.log(`Interviewer OS backend listening on http://0.0.0.0:${env.port}`);
     console.log(`Environment: ${env.nodeEnv}`);
   });
 }
