@@ -1,0 +1,27 @@
+{
+  "name": "interviewer-os-backend",
+  "version": "0.1.0",
+  "description": "Backend for Interviewer OS (ABTalks Vibe Code Hackathon 2026) — Parts 1-4: data layer, intelligence engine, memory, HTTP API.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node scripts/test-data-layer.js",
+    "test:engine": "node scripts/test-intelligence-engine.js",
+    "test:memory": "node scripts/test-memory.js",
+    "test:breeth": "node scripts/test-breeth-provider.js",
+    "test:api": "node scripts/test-http-api.js",
+    "test:json": "node scripts/test-json-extract.js",
+    "test:personalization": "node scripts/test-personalization.js",
+    "test:all": "npm run test && npm run test:engine && npm run test:memory && npm run test:breeth && npm run test:json && npm run test:api && npm run test:personalization"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
