@@ -234,3 +234,6 @@ history this log could and couldn't verify.
   camera/mic in every browser. Speech *recognition* specifically has the
   weakest support in Firefox; Chrome/Edge/Safari support it. Speech
   *synthesis* is broadly supported everywhere.
+Breath Dashboard:
+  <img width="1918" height="853" alt="image" src="https://github.com/user-attachments/assets/4d11a830-d51c-422d-97e0-530f4f7296ff" />
+
